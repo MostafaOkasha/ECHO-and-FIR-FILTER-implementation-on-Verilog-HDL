@@ -1,0 +1,23 @@
+module potato(input x, y,z, output a, b,c);
+always @(*)
+begin
+case ({x,y,z})
+3’b111:
+begin
+a = 1’b0;
+b=1’b1;
+c=x;
+end
+3’b101:
+begin
+a=1’b0;
+b=y;
+c=z;
+end
+default:
+begin
+a=1’b0;
+b=b;
+end
+endcase
+end

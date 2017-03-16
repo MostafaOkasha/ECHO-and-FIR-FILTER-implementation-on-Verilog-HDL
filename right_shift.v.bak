@@ -1,0 +1,6 @@
+module right_shift (input [5:0] number, output [5:0] half,output [5:0] quarter);
+
+assign half = {number[5], number[5:1]};
+assign quarter = {number[5], number[5], number[5:2]};
+
+endmodule

@@ -1,0 +1,84 @@
+Restore Archived Project report for DE2_i2sound
+Mon Feb 13 14:44:11 2017
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Restore Archived Project Summary
+  3. Restore Archived Project Messages
+  4. Files Restored
+  5. Files Not Restored
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------+
+; Restore Archived Project Summary                                        ;
++---------------------------------+---------------------------------------+
+; Restore Archived Project Status ; Successful - Mon Feb 13 14:44:11 2017 ;
+; Revision Name                   ; DE2_i2sound                           ;
+; Top-level Entity Name           ; system                                ;
+; Family                          ; Cyclone II                            ;
++---------------------------------+---------------------------------------+
+
+
++-----------------------------------+
+; Restore Archived Project Messages ;
++-----------------------------------+
+Info: Successfully restored 'C:/Users/mos-o/Desktop/THIRD YEAR SECOND TERM/MECHTRON 3TB4/3TB4 Labs/lab 3/lab3_starter.qar' into the 'C:/Users/mos-o/Desktop/THIRD YEAR SECOND TERM/MECHTRON 3TB4/3TB4 Labs/lab 3/lab3_starter_restored/' directory
+Info: Generated report 'DE2_i2sound.restore.rpt'
+Info (23030): Evaluation of Tcl script c:/altera/13.0sp1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus II 64-Bit Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 296 megabytes
+    Info: Processing ended: Mon Feb 13 14:44:11 2017
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+
++-------------------------------------+
+; Files Restored                      ;
++-------------------------------------+
+; File Name                           ;
++-------------------------------------+
+; CLOCK_500.v                         ;
+; DE2_i2sound.qpf                     ;
+; DE2_i2sound.qsf                     ;
+; DE2_i2sound_assignment_defaults.qdf ;
+; assignment_defaults.qdf             ;
+; dsp_subsystem.v                     ;
+; i2c.v                               ;
+; keytr.v                             ;
+; parallel_to_serial.v                ;
+; serial_to_parallel.v                ;
+; system.v                            ;
++-------------------------------------+
+
+
++--------------------+
+; Files Not Restored ;
++--------------------+
+; File Name          ;
++--------------------+
+
+

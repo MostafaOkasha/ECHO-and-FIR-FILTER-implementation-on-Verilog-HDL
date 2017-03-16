@@ -1,0 +1,25 @@
+module fir_filter (input [7:0] a, input [7:0] b, input [1:0] sel,
+output reg [7:0] result);
+// PAY ATTENTION: THE NEXT LINE IS COUNTERINTUITIVE, BUT CORRECT!
+wire [7:0] bus_2_d [3:0]; // declares four 8-bit buses
+
+assign bus_2_d[0] = a+b;
+// the first 8-bit bus connects to the output of a+b
+assign bus_2_d[1] = a-b;
+// the second 8-bit bus connects to the output of a-b
+assign bus_2_d[2] = b-a;
+// the third 8-bit bus connects to the output of b-a
+assign bus_2_d[3] = a*b;
+// the fourth 8-bit bus connects to the output of a*b
+// The following always block implements a multiplexer that selects
+// among the four results
+always @(*)
+begin
+case (sel)
+2'b00: result = bus_2_d[0];
+2'b01: result = bus_2_d[1];
+2'b10: result = bus_2_d[2];
+2'b11: result = bus_2_d[3];
+endcase
+end
+endmodule
